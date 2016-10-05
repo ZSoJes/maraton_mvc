@@ -1,4 +1,5 @@
 require_relative 'view'
+require_relative 'model'
 
 vista = Vista.new
 juego = LeerJuego.new  
