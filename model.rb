@@ -10,13 +10,9 @@ class LeerJuego
     @malas = 0 
   end
 
-  def resultado
-    puts "Bienvenido a Maratón. Te daremos una pregunta y deberàs adivinar la respuesta correcta."
-    puts "Listo? Arranca el Juego!"
-    puts
-    lanzaPregunta
-    puts "Acabaste:"
-    return "Tuviste #{@buenas} Correctas y #{@malas} Incorrectas."
+  def proceso
+    lanzaPregunta  
+    puts "Tuviste #{@buenas} Correctas y #{@malas} Incorrectas."
   end
 
   def lanzaPregunta
@@ -53,5 +49,5 @@ class LeerJuego
 end
 
 
-leer = LeerJuego.new
-leer.queEmpieceElJuego
+#leer = LeerJuego.new
+#leer.queEmpieceElJuego

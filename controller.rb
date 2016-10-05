@@ -1,7 +1,7 @@
-require_relative 'model'
 require_relative 'view'
 
-juego = LeerJuego.new
 vista = Vista.new
+juego = LeerJuego.new  
 
- vista.presentacion
+vista.presentacion
+juego.proceso
